@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      body {
+        padding: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>head</header>
+      <nav>nav</nav>
+      <section>
+        <!-- form section -->
+        <section>
+          <h1>Form</h1>
+          <!-- <h3>class</h3>
+        <h6>class</h6> -->
+          <p>This is our <b>form</b></p>
+          <form action="">
+            <div>
+              <label for="name">name</label>
+              <br />
+              <input id="name" type="text" required value="user" readonly />
+            </div>
+            <div>
+              <label for="email">email</label>
+              <br />
+              <input id="email" type="email" required disabled />
+            </div>
+            <div>
+              <label for="password">password</label>
+              <br />
+              <input id="password" type="password" required />
+            </div>
+            <div>
+              <label for="dob">dob</label>
+              <br />
+              <input id="dob" type="date" />
+            </div>
+            <div>
+              <label for="from">meet date</label>
+              <br />
+              <input id="from" type="datetime-local" required />
+            </div>
+            <div>
+              <label for="range">prize range</label>
+              <br />
+              <input id="range" type="range" step="25" min="0" max="100" />
+            </div>
+            <div>
+              <label for="color">theam color</label>
+              <br />
+              <input id="color" type="color" />
+            </div>
+            <button type="submit">submit</button>
+          </form>
+        </section>
+        <br />
+        <br />
+        <!-- table -->
+        <section>
+          <h1>table</h1>
+          <table border="1">
+            <thead>
+              <tr>
+                <th>sn</th>
+                <th>name</th>
+                <th>email</th>
+                <th>dob</th>
+                <th>meet date</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>nabin</td>
+                <td>nabin@nabin.com</td>
+                <td>12/12/2002</td>
+                <td>sun 11 2023 11:00 AM</td>
+              </tr>
+
+              <tr>
+                <td>1</td>
+                <td>nabin</td>
+                <td>nabin@nabin.com</td>
+                <td>12/12/2002</td>
+                <td>sun 11 2023 11:00 AM</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>nabin</td>
+                <td>nabin@nabin.com</td>
+                <td>12/12/2002</td>
+                <td rowspan="2">sun 11 2023 11:00 AM</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>nabin</td>
+                <td>nabin@nabin.com</td>
+                <td>12/12/2002</td>
+              </tr>
+              <tr>
+                <td colspan="4">total</td>
+                <td>Rs 10,000</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </section>
+      <!-- <footer>footer</footer> -->
+    </main>
+  </body>
+</html>
