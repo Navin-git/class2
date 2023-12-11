@@ -7,11 +7,13 @@
     <style>
       * {
         margin: 0;
+        padding: 0;
       }
-      body {
-        padding: 50px;
+      h1 {
+        color: gray;
       }
     </style>
+    <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
     <main>
@@ -22,10 +24,33 @@
         <a href="./dashboard/dashboard.html">dashboard</a>
         <a href="https://www.google.com/" target="_blank"> google</a>
       </nav>
-      <section>
+      <!-- center any div -->
+      <!-- <div class="center-p">
+        <div id="center-c"></div>
+      </div> -->
+
+      <!-- overflow -->
+      <!-- <div class="div-p">
+        <div id="div-c" style="font-size: 100px">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus non
+          neque omnis tenetur ratione in illum quidem voluptas minus
+          perferendis, sed magni quisquam dolore, impedit deleniti maiores cum!
+          Reprehenderit, iusto?
+        </div>
+      </div> -->
+
+      <!-- min and max -->
+      <div class="p-div">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure nostrum
+        libero id consequuntur, repellendus laboriosam minima ducimus cupiditate
+        est excepturi accusantium architecto, eum recusandae neque nemo, ratione
+        deserunt inventore totam.
+      </div>
+
+      <section style="padding: 0 30px">
         <!-- form section -->
-        <section>
-          <h1>Form</h1>
+        <section class="form-wrapper">
+          <h1 style="color: red; font-size: xx-large">Form</h1>
           <!-- <h3>class</h3>
         <h6>class</h6> -->
           <p>This is <b>form</b></p>
@@ -119,26 +144,27 @@
             </tbody>
           </table>
         </section>
-      </section>
-      <br />
-      <br />
-      <!-- list -->
-      <section>
-        <h3>order</h3>
-        <ol>
-          <li>ram</li>
-          <li>hari</li>
-          <li>shyam</li>
-        </ol>
         <br />
         <br />
-        <h3>unorder</h3>
-        <ul>
-          <li>ram</li>
-          <li>hari</li>
-          <li>shyam</li>
-        </ul>
+        <!-- list -->
+        <section>
+          <h3>order</h3>
+          <ol>
+            <li>ram</li>
+            <li>hari</li>
+            <li>shyam</li>
+          </ol>
+          <br />
+          <br />
+          <h3>unorder</h3>
+          <ul>
+            <li>ram</li>
+            <li>hari</li>
+            <li>shyam</li>
+          </ul>
+        </section>
       </section>
+
       <br />
       <br />
       <!-- images -->
@@ -146,8 +172,9 @@
         <img
           src="https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg"
           alt=""
+          style="width: 100%"
         />
-        <img src="./images/glass.jpeg" width="500" alt="" />
+        <img src="./images/glass.jpeg" style="width: 100%" alt="" />
       </section>
       <!-- <footer>footer</footer> -->
     </main>
