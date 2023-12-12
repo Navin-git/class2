@@ -40,65 +40,73 @@
       </div> -->
 
       <!-- min and max -->
-      <div class="p-div">
+      <!-- <div class="p-div">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure nostrum
         libero id consequuntur, repellendus laboriosam minima ducimus cupiditate
         est excepturi accusantium architecto, eum recusandae neque nemo, ratione
         deserunt inventore totam.
-      </div>
+      </div> -->
 
       <section style="padding: 0 30px">
         <!-- form section -->
+        <br />
         <section class="form-wrapper">
           <h1 style="color: red; font-size: xx-large">Form</h1>
           <!-- <h3>class</h3>
         <h6>class</h6> -->
           <p>This is <b>form</b></p>
-          <form action="">
-            <div>
-              <label for="name">name</label>
-              <br />
-              <input id="name" type="text" required value="user" readonly />
-            </div>
-            <div>
-              <label for="email">email</label>
-              <br />
-              <input id="email" type="email" required disabled />
-            </div>
-            <div>
-              <label for="password">password</label>
-              <br />
-              <input id="password" type="password" required />
-            </div>
-            <div>
-              <label for="dob">dob</label>
-              <br />
-              <input id="dob" type="date" />
-            </div>
-            <div>
-              <label for="from">meet date</label>
-              <br />
-              <input id="from" type="datetime-local" required />
-            </div>
-            <div>
-              <label for="range">prize range</label>
-              <br />
-              <input id="range" type="range" step="25" min="0" max="100" />
-            </div>
-            <div>
-              <label for="color">theam color</label>
-              <br />
-              <input id="color" type="color" />
-            </div>
-            <button type="submit">submit</button>
-          </form>
+          <div class="form-flex">
+            <form action="">
+              <div>
+                <label for="name">name</label>
+                <br />
+                <input id="name" type="text" required value="user" readonly />
+              </div>
+              <div>
+                <label for="email">email</label>
+                <br />
+                <input id="email" type="email" required />
+              </div>
+              <div>
+                <label for="password">password</label>
+                <br />
+                <input id="password" type="password" required />
+              </div>
+              <div>
+                <label for="dob">dob</label>
+                <br />
+                <input id="dob" type="date" />
+              </div>
+              <div>
+                <label for="from">meet date</label>
+                <br />
+                <input id="from" type="datetime-local" required />
+              </div>
+              <div>
+                <label for="range">prize range</label>
+                <br />
+                <input id="range" type="range" step="25" min="0" max="100" />
+              </div>
+              <!-- <div style="background-color: aquamarine; grid-row: 4/6">
+                dsds
+              </div>
+              <div>sadasd</div> -->
+              <!-- <div>
+                <label for="color">theam color</label>
+                <br />
+                <input id="color" type="color" />
+              </div> -->
+              <button style="grid-column: 1/3" type="submit">submit</button>
+            </form>
+            <img src="./images/glass.jpeg" alt="image" />
+          </div>
         </section>
         <br />
         <br />
         <!-- table -->
         <section>
           <h1>table</h1>
-          <table border="1">
+          <table style="width: 100%">
             <thead>
               <tr>
                 <th>sn</th>
@@ -147,7 +155,7 @@
         <br />
         <br />
         <!-- list -->
-        <section>
+        <!-- <section>
           <h3>order</h3>
           <ol>
             <li>ram</li>
@@ -162,20 +170,119 @@
             <li>hari</li>
             <li>shyam</li>
           </ul>
+        </section> --><br />
+        <!-- images -->
+        <h1>Images</h1>
+        <br />
+        <section class="images">
+          <img
+            src="https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg"
+            alt=""
+            style="width: 100%"
+          />
+          <img src="./images/glass.jpeg" style="width: 100%" alt="" />
+          <img src="./images/glass.jpeg" style="width: 100%" alt="" />
+          <img src="./images/glass.jpeg" style="width: 100%" alt="" />
+          <img src="./images/glass.jpeg" style="width: 100%" alt="" />
+          <img
+            src="./images/glass.jpeg"
+            style="width: 100%; height: 100%; grid-column: 3/4; grid-row: 2/4"
+            alt="sadsd"
+          />
+          <img src="./images/glass.jpeg" style="width: 100%" alt="" />
+          <img src="./images/glass.jpeg" style="width: 100%" alt="" />
         </section>
+        <br />
+        <!-- product card -->
+        <h1>Products</h1>
+        <br />
+        <section class="products">
+          <div class="card">
+            <img
+              src="https://reviewed-com-res.cloudinary.com/image/fetch/s--BBWYtQwJ--/b_white,c_limit,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,q_auto,w_972/https://reviewed-production.s3.amazonaws.com/1588615493713/HeroBestLaptopsUnder1k.jpg"
+              alt=""
+            />
+            <div>
+              <div style="display: flex; justify-content: space-between">
+                <h3 style="text-align: start">Mac book</h3>
+                <p style="font-weight: bold">rs 100</p>
+              </div>
+              <br />
+              <p style="text-align: start">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://reviewed-com-res.cloudinary.com/image/fetch/s--BBWYtQwJ--/b_white,c_limit,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,q_auto,w_972/https://reviewed-production.s3.amazonaws.com/1588615493713/HeroBestLaptopsUnder1k.jpg"
+              alt=""
+            />
+            <div>
+              <div style="display: flex; justify-content: space-between">
+                <h3 style="text-align: start">Mac book</h3>
+                <p style="font-weight: bold">rs 100</p>
+              </div>
+              <br />
+              <p style="text-align: start">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://reviewed-com-res.cloudinary.com/image/fetch/s--BBWYtQwJ--/b_white,c_limit,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,q_auto,w_972/https://reviewed-production.s3.amazonaws.com/1588615493713/HeroBestLaptopsUnder1k.jpg"
+              alt=""
+            />
+            <div>
+              <div style="display: flex; justify-content: space-between">
+                <h3 style="text-align: start">Mac book</h3>
+                <p style="font-weight: bold">rs 100</p>
+              </div>
+              <br />
+              <p style="text-align: start">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://reviewed-com-res.cloudinary.com/image/fetch/s--BBWYtQwJ--/b_white,c_limit,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,q_auto,w_972/https://reviewed-production.s3.amazonaws.com/1588615493713/HeroBestLaptopsUnder1k.jpg"
+              alt=""
+            />
+            <div>
+              <div style="display: flex; justify-content: space-between">
+                <h3 style="text-align: start">Mac book</h3>
+                <p style="font-weight: bold">rs 100</p>
+              </div>
+              <br />
+              <p style="text-align: start">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://reviewed-com-res.cloudinary.com/image/fetch/s--BBWYtQwJ--/b_white,c_limit,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,q_auto,w_972/https://reviewed-production.s3.amazonaws.com/1588615493713/HeroBestLaptopsUnder1k.jpg"
+              alt=""
+            />
+            <div>
+              <div style="display: flex; justify-content: space-between">
+                <h3 style="text-align: start">Mac book</h3>
+                <p style="font-weight: bold">rs 100</p>
+              </div>
+              <br />
+              <p style="text-align: start">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+        </section>
+        <div></div>
       </section>
 
       <br />
-      <br />
-      <!-- images -->
-      <section>
-        <img
-          src="https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg"
-          alt=""
-          style="width: 100%"
-        />
-        <img src="./images/glass.jpeg" style="width: 100%" alt="" />
-      </section>
+
       <!-- <footer>footer</footer> -->
     </main>
   </body>
