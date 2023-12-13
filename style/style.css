@@ -168,3 +168,16 @@ tr:first-child {
 /* .products:hover .card{
      background: green;
 } */
+
+
+.grid {
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     gap: 20px;
+     padding: 20px;
+}
+
+.grid div {
+     min-height: 200px;
+     border-radius: 10px;
+}
