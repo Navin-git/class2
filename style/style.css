@@ -16,6 +16,9 @@ nav{
      /* align-items: center; */
      gap: 20px;
      flex-wrap: wrap;
+     position: sticky;
+     top: 0px;
+     z-index: 999;
 }
 nav a {
      color: white;
@@ -180,4 +183,57 @@ tr:first-child {
 .grid div {
      min-height: 200px;
      border-radius: 10px;
+}
+
+.dad {
+     width: 400px;
+     height: 400px;
+     background: #69ab9a;
+     position: relative;
+     /* bottom: 20px; */
+     /* left: -50px; */
+}
+
+.son {
+     width: 100px;
+     height: 100px;
+     background: #4e4061;
+     position: absolute;
+     bottom: 20px;
+     right: 20px;
+}
+
+
+.drop-down {
+     position: relative;
+}
+
+.drop-down:hover .drop-content{
+     display: block;
+}
+
+.drop-content{
+     position: absolute;
+     top: calc(100%);
+     background: #fff;
+     padding: 10px 20px;
+     right: 0;
+     border-radius: 10px;
+     border: 1px solid gray;
+     display: none;
+}
+
+.drop-content div {
+     margin: 10px 0;
+     padding: 10px;
+     cursor: pointer;
+}
+
+.fixed {
+     position: fixed;
+     height: 100px;
+     width: 100px;
+     background: rgb(126, 224, 165);
+     bottom: 50px;
+     right: 50px;
 }
